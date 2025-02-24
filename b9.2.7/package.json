@@ -1,0 +1,14 @@
+{
+  "name": "b9.2.7",
+  "version": "1.0.0",
+  "description": "Practice 9.2.7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AndyAn",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
