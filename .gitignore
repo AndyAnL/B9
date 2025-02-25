@@ -129,11 +129,19 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# compose
+/.vscode/
+coverage.out
+covdatafiles/
+.DS_Store
 
 #php 
 
 # Игнорировать зависимости Composer
 /vendor/
+bin/
+
+
 
 # Игнорировать файлы окружения (например, .env)
 .env
