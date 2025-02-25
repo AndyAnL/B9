@@ -128,3 +128,60 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+#php 
+
+# Игнорировать зависимости Composer
+/vendor/
+
+# Игнорировать файлы окружения (например, .env)
+.env
+.env.local
+.env.*.local
+
+# Игнорировать кэш и логи
+/storage/*.key
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/logs/
+
+# Игнорировать файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Игнорировать сгенерированные файлы
+/public/storage
+/public/hot
+
+# Игнорировать файлы Composer
+composer.lock
+composer.phar
+
+# Игнорировать файлы npm
+/node_modules/
+npm-debug.log
+
+# Игнорировать тестовые данные
+/tests/_output/
+/tests/_support/_generated/
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорировать скомпилированные файлы
+*.compiled.php
+
+# Игнорировать локальные конфигурации
+/config/*.local.php
+
+# Игнорировать файлы деплоя
+deploy.php
+deployer.phar
+
+# Игнорировать файлы Docker
+docker-compose.override.yml
